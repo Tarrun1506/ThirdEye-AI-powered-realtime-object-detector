@@ -6,8 +6,9 @@ ThirdEye is an advanced accessibility application designed to empower visually i
 
 - **Real-Time Object Detection**: Identifies 600+ objects instantly using a camera feed.
 - **Voice Feedback (TTS)**: audible announcements of detected objects and navigation cues.
-- **SOS Emergency Alert**: One-touch mechanism to notify a guardian with details.
+- **SOS Emergency Alert**: One-touch mechanism to notify a guardian, displaying their contact info onscreen.
 - **Voice Commands**: Hands-free control for key features.
+- **Dynamic Split-Screen UI**: Interactive home screen that adapts to show camera feed or feedback forms side-by-side with controls.
 - **Cyberpunk / Glassmorphism UI**: High-contrast, accessible, and visually stunning interface.
 
 ## 🚀 Tech Stack

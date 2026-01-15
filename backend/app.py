@@ -87,6 +87,7 @@ def trigger_sos():
         # In a real app, this would trigger an SMS or Call
         return jsonify({
             'message': f'Calling Emergency Contact: {user.contact.guardian_name}',
+            'name': user.contact.guardian_name,
             'phone': user.contact.guardian_phone
         }), 200
     return jsonify({'message': 'No contact found'}), 404
