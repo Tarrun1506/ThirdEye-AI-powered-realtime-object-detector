@@ -1,0 +1,35 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Python / Backend
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.env
+backend/instance/
+backend/.pytest_cache/
+backend/models/  # If users download weighty models
+*.sqlite3
+
+# AI Models
+*.weights
+*.cfg
+*.names
+*.h5
+*.pt
+*.onnx
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/coverage/
+frontend/.npm/
+
+# Local artifacts
+.gemini/
